@@ -1,0 +1,150 @@
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: hsl(240, 24%, 96%);
+}
+
+.header{
+    margin-top: 0.5cm;
+    text-align: center;
+}
+
+h1{
+    letter-spacing: 3px;
+    font-size: 50px;
+    color: rgb(66, 61, 61);
+}
+
+.underline{
+    height: 5px;
+    width: 4cm;
+    background-color:rgb(101, 196, 164);;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details{
+    display: flex;
+}
+
+.button-box{
+    padding-top: 1cm;
+}
+
+.job-button{
+    display: flex;
+    height: 1cm;
+    width: 4cm;
+    margin-top: 0.2cm;
+    font-size: 18px;
+    align-items: center;
+    letter-spacing: 3px;
+    justify-content: center;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+    color: rgb(66, 61, 61);
+}
+
+.active-button{
+    border-left-style: solid;
+    border-width: 5px;
+    border-left-color: rgb(101, 196, 164);
+}
+
+.button-box button:hover{
+    border-left-style: solid;
+    border-width: 5px;
+    border-left-color: rgb(101, 196, 164);
+    color: rgb(101, 196, 164);
+}
+
+.divider{
+    width: 1cm;
+}
+
+.info-box{
+    font-size: 18px;
+    width: 25cm;
+    padding-top: 1.2cm;
+}
+
+.info-box h4{
+    font-weight: normal;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+#work-title{
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+    color: rgb(66, 61, 61);
+}
+
+#user-name{
+    display: block;
+    margin-bottom: 10px;
+    padding: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: hsl(212, 5%, 49%);;
+    width:min-content;
+    background-color: hsl(240, 2%, 84%);
+}
+
+#work-duration{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: rgb(95, 95, 95);
+}
+
+#description{
+    display: block;
+    margin: 0cm;
+    color: rgb(66, 61, 61);
+}
+
+#description{
+    margin-bottom: 15px;
+}
+
+#icon{
+    color: rgb(101, 196, 164);
+}
+
+.button-div{
+    text-align: center;
+}
+
+.more-info-button{
+    padding: 7px;
+    height: 1cm;
+    width: 4cm;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border-style: none;
+    border-color:transparent;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+    background-color: rgb(101, 196, 164);
+}
+
+.more-info-button:hover{
+    color:rgb(66, 61, 61);
+    background-color: rgb(174, 226, 209);
+}
+
